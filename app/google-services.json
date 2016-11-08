@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "364179924502",
+    "firebase_url": "https://pet-track-9b49c.firebaseio.com",
+    "project_id": "pet-track-9b49c",
+    "storage_bucket": "pet-track-9b49c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:364179924502:android:43fac024da2f6ab6",
+        "android_client_info": {
+          "package_name": "com.zecovery.android.ptrac"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "364179924502-m9ojj3ddvftkolcg15r4p2s3opqljvq8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.zecovery.android.ptrac",
+            "certificate_hash": "E46B9F5249B054968D845AF951A46022E488D259"
+          }
+        },
+        {
+          "client_id": "364179924502-snu1saa6irkljidhpgjo17ibqcigdagr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMkg5lYjEHUMtV2tRqZ_veDw6VGAkKoTg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "364179924502-snu1saa6irkljidhpgjo17ibqcigdagr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

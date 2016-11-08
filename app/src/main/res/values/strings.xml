@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">PTRAC</string>
+
+    <!-- barra de menu inferior-->
+    <string name="bottom_menu_inicio">Inicio</string>
+    <string name="bottom_menu_buscar">Buscar</string>
+    <string name="bottom_menu_consejos">Consejos</string>
+    <string name="bottom_menu_est">Esteriliza</string>
+    <string name="bottom_menu_mas_info">Mas informacion</string>
+
+
+</resources>
