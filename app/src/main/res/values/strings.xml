@@ -6,7 +6,16 @@
     <string name="bottom_menu_buscar">Buscar</string>
     <string name="bottom_menu_consejos">Consejos</string>
     <string name="bottom_menu_est">Esteriliza</string>
-    <string name="bottom_menu_mas_info">Mas informacion</string>
+    <string name="bottom_menu_mas_info">Más info</string>
+
+    <!-- UI búsqueda-->
+    <string name="busqueda_rut_title">Búsqueda por RUT propietario</string>
+    <string name="busqueda_rut_hint">09982249-k</string>
+    <string name="busqueda_rut_text">Al ingresar el RUT del propietario se mostrará información de contacto</string>
+    <string name="busqueda_chip_title">Búsqueda por Chip</string>
+    <string name="busqueda_chip_hint">123456789</string>
+    <string name="busqueda_chip_text">Al ingresar el numero de chip de la mascota, se mostrará información del prietario</string>
+    <string name="button_buscar">Buscar</string>
 
 
 </resources>

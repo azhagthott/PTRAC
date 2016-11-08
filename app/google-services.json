@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "364179924502-7hbkleebl9qiasoug4bt7mn5s0o0enm9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.zecovery.android.ptrac",
+            "certificate_hash": "4D0F800FCD9FB34C1F2D0E0FE898B98255F0D6D6"
+          }
+        },
+        {
           "client_id": "364179924502-m9ojj3ddvftkolcg15r4p2s3opqljvq8.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
