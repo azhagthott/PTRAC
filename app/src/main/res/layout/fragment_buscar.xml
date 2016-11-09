@@ -1,159 +1,266 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/buscar_background"
     tools:context="com.zecovery.android.ptrac.fragment.FragmentBuscar">
 
-    <ScrollView
+    <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
         <LinearLayout
-            android:background="@color/yellow_300"
-            android:layout_marginTop="80dp"
-            android:orientation="vertical"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:background="@color/grey_900"
+                android:gravity="center_vertical">
+
+                <ToggleButton
+                    android:id="@+id/toggleButtonRut"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/darkBackground_alpha"
+                    android:checked="false"
+                    android:padding="16dp"
+                    android:textOff="@string/busqueda_rut_title"
+                    android:textOn="@string/busqueda_rut_title"
+                    android:textSize="18sp" />
+
+                <ImageView
+                    android:id="@+id/iconRut"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/toggleButtonRut"
+                    android:layout_alignStart="@+id/toggleButtonRut"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="12dp"
+                    android:layout_marginStart="12dp"
+                    android:background="@color/darkBackground_alpha"
+                    android:src="@drawable/ic_add" />
+
+            </RelativeLayout>
 
             <LinearLayout
+                android:id="@+id/linearLayoutRut"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
                 android:animateLayoutChanges="true"
                 android:background="@color/darkBackground"
-                android:layout_margin="8dp"
                 android:gravity="center"
-                android:id="@+id/linearLayoutRut"
-                android:orientation="vertical"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-
-
-                <LinearLayout
-                    android:background="@color/red_400"
-                    android:gravity="center_vertical"
-                    android:orientation="horizontal"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent">
-
-                    <ImageView
-                        android:id="@+id/iconRut"
-                        android:layout_marginEnd="4dp"
-                        android:layout_marginStart="4dp"
-                        android:layout_marginTop="8dp"
-                        android:layout_marginBottom="8dp"
-                        android:src="@drawable/ic_add"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content" />
-
-                    <TextView
-                        android:id="@+id/textViewTitleRut"
-                        android:layout_marginEnd="4dp"
-                        android:layout_marginStart="4dp"
-                        android:layout_marginBottom="8dp"
-                        android:layout_marginTop="8dp"
-                        android:textSize="28sp"
-                        android:text="@string/busqueda_rut_title"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content" />
-
-                </LinearLayout>
+                android:orientation="vertical">
 
                 <TextView
-                    android:layout_margin="8dp"
                     android:id="@+id/textViewSubRut"
-                    android:text="@string/busqueda_rut_text"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="12dp"
+                    android:layout_marginEnd="24dp"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginTop="12dp"
+                    android:text="@string/busqueda_rut_text" />
 
-                <EditText
-                    android:layout_margin="8dp"
-                    android:id="@+id/editTextBusquedaRut"
-                    android:hint="@string/busqueda_rut_hint"
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/textInputLayoutRut"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="8dp">
+
+                    <EditText
+                        android:id="@+id/editTextBusquedaRut"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/busqueda_rut_hint" />
+
+                </android.support.design.widget.TextInputLayout>
+
 
                 <Button
-                    android:layout_margin="8dp"
                     android:id="@+id/buttonBuscarRut"
                     style="@style/Base.Widget.AppCompat.Button.Borderless.Colored"
-                    android:text="@string/button_buscar"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:text="@string/button_buscar" />
 
             </LinearLayout>
 
-            <View
+            <LinearLayout
+                android:id="@+id/linearLayoutRutResult"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
                 android:layout_marginEnd="8dp"
                 android:layout_marginStart="8dp"
-                android:layout_marginTop="2dp"
-                android:layout_marginBottom="2dp"
-                android:background="@color/divider"
-                android:layout_width="match_parent"
-                android:layout_height="1dp"/>
+                android:background="@color/darkBackground"
+                android:orientation="horizontal">
 
-            <LinearLayout
-                android:visibility="gone"
-                android:gravity="center"
-                android:layout_margin="8dp"
-                android:id="@+id/linearLayoutChip"
-                android:orientation="vertical"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginEnd="24dp"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginTop="16dp"
+                    android:text="@string/result_fono_lbl" />
 
                 <LinearLayout
-                    android:gravity="center_vertical"
-                    android:orientation="horizontal"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent">
-
-                    <ImageView
-                        android:id="@+id/iconChip"
-                        android:layout_marginEnd="4dp"
-                        android:layout_marginStart="4dp"
-                        android:layout_marginTop="8dp"
-                        android:layout_marginBottom="8dp"
-                        android:src="@drawable/ic_add"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
 
                     <TextView
-                        android:layout_marginEnd="4dp"
-                        android:layout_marginStart="4dp"
-                        android:layout_marginBottom="8dp"
-                        android:layout_marginTop="8dp"
-                        android:textSize="28sp"
-                        android:id="@+id/textViewTitleChip"
-                        android:text="@string/busqueda_chip_title"
+                        android:id="@+id/textViewRutResult"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content" />
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="16dp"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="16dp"
+                        android:text="@string/result_dummy"
+                        android:textColor="@color/colorAccent" />
 
                 </LinearLayout>
 
-                <TextView
-                    android:layout_margin="8dp"
-                    android:id="@+id/textViewSubChip"
-                    android:text="@string/busqueda_chip_text"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content" />
+            </LinearLayout>
 
-                <EditText
-                    android:layout_margin="8dp"
-                    android:id="@+id/editTextBusquedaChip"
-                    android:hint="@string/busqueda_chip_hint"
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:background="@color/grey_900"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/iconChip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/toggleButtonChip"
+                    android:layout_alignStart="@+id/toggleButtonChip"
+                    android:layout_centerVertical="true"
+                    android:background="@color/darkBackground_alpha"
+                    android:src="@drawable/ic_add" />
+
+                <ToggleButton
+                    android:id="@+id/toggleButtonChip"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="12dp"
+                    android:layout_marginStart="12dp"
+                    android:background="@color/darkBackground_alpha"
+                    android:checked="false"
+                    android:padding="16dp"
+                    android:textOff="@string/busqueda_chip_title"
+                    android:textOn="@string/busqueda_chip_title"
+                    android:textSize="18sp" />
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayoutChip"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:background="@color/darkBackground"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:visibility="visible">
+
+                <TextView
+                    android:id="@+id/textViewSubChip"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="12dp"
+                    android:layout_marginEnd="24dp"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginTop="12dp"
+                    android:text="@string/busqueda_chip_text" />
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/textInputLayoutChip"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="8dp">
+
+                    <EditText
+                        android:id="@+id/editTextBusquedaChip"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/busqueda_chip_hint" />
+
+                </android.support.design.widget.TextInputLayout>
 
                 <Button
-                    android:layout_margin="8dp"
                     android:id="@+id/buttonBuscarChip"
                     style="@style/Base.Widget.AppCompat.Button.Borderless.Colored"
-                    android:text="@string/button_buscar"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:text="@string/button_buscar" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayoutChipResult"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:background="@color/darkBackground"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginEnd="24dp"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginTop="16dp"
+                    android:text="@string/result_fono_lbl" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textViewChipResult"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="16dp"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="16dp"
+                        android:text="@string/result_dummy"
+                        android:textColor="@color/colorAccent" />
+
+                </LinearLayout>
 
             </LinearLayout>
 
         </LinearLayout>
 
-    </ScrollView>
+    </FrameLayout>
 
-</FrameLayout>
+</ScrollView>

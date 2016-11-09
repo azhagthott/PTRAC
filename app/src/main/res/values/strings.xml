@@ -17,5 +17,35 @@
     <string name="busqueda_chip_text">Al ingresar el numero de chip de la mascota, se mostrará información del prietario</string>
     <string name="button_buscar">Buscar</string>
 
+    <!-- UI Resultados-->
+    <string name="result_dummy">+56961499453</string>
+    <string name="result_fono_lbl">Teléfono:</string>
+
+    <string name="no_data">No se encontraron resultados</string>
+
+
+    <!-- UI Consejos-->
+    <string name="consejos_identificacion_title">Identificación</string>
+    <string name="consejos_ejercicio_title">Ejercicio, paseos y juegos</string>
+    <string name="consejos_lugar_title">Lugar de cobijo propio</string>
+    <string name="consejos_educacion_title">Educación, interacción y entretenimiento</string>
+    <string name="consejos_comunidad_title">Nuestras mascotas y la comunidad</string>
+    <string name="consejos_socializacion_title">Socialización</string>
+    <string name="consejos_no_abandonar_title">Nunca abandonar a un animal</string>
+    <string name="consejos_adopcion_title">Preferir la adopción</string>
+
+    <string name="consejos_identificacion">Nuestras mascotas deben estar siempre identificadas en caso de que se pierdan. La identificación puede ser realizada con distintos métodos que son complementarios entre sí (placas de identificación en collares y microchips). Lo ideal es tenerlos con un collar con una placa de identificación de fácil visibilización con el teléfono del dueño y además instalar un microchip, que es una forma de identificación permanente que se coloca bajo la piel del animal por un Médico Veterinario y que entrega la información básica del dueño en caso de extravío.</string>
+    <string name="consejos_ejercicio">Los animales deben realizar ejercicio para mantenerse en forma y no estresarse. A los perros los debemos sacar a pasear por lo menos una vez al día (todos los días a la misma hora e independiente de que vivan en el patio), siempre con correa y con bolsas para recoger sus desechos. A los gatos les debemos entregar los elementos (juguetes y plataformas) para fomentar la actividad física. Debemos prestar atención al tipo de juguete que a nuestro animal, perro o gato, le guste y necesite además de dedicarles el tiempo necesario.</string>
+    <string name="consejos_lugar">Las mascotas deben contar con un lugar que identifiquen como propio donde descansar. Este lugar debe estar siempre limpio, seco y protegido de las distintas condiciones climáticas.</string>
+    <string name="consejos_educacion">Los animales, al igual que nosotros, deben ser educados para comportarse adecuadamente. Esta educación debemos realizarla con paciencia, cariño y nunca mediante la violencia o maltrato. Los animales deben interactuar con nosotros y con las distintas situaciones de manera entretenida y deben asociar los comportamientos deseados con buenas experiencias mediante refuerzos positivos (cariño, juegos o premios de comida).</string>
+    <string name="consejos_comunidad">Nunca debemos dejar salir a nuestras mascotas sin nuestra supervisión ya que pueden generar accidentes de tránsito, morder a otras personas u otros animales, generar problemas ambientales como esparcimiento de basura o deposiciones en lugares indeseados, además de que se puedan extraviar, sufrir un accidente o contagiarse de enfermedades.
+
+Además existe una serie de normativas que debemos cumplir. En estos momentos se encuentran vigentes la ley de 20.380 sobre Protección de los Animales, el Reglamento de prevención y control de la Rabia y las distintas ordenanzas municipales que nos dan un marco legal en que debemos relacionarnos con respecto a nuestros animales de compañía y la comunidad.</string>
+    <string name="consejos_socializacion">Los animales deben ser socializados con otras personas y otros animales desde pequeños. Asimismo debemos exponerlos a diferentes situaciones a las que se verán enfrentados a lo largo de su vida (andar en auto, quedarse en casa de otras personas, cuidadores) con la finalidad de evitar estrés y conductas indeseadas como el miedo y la agresividad.</string>
+    <string name="consejos_adopcion">Si ya has tomado esta decisión de tener una mascota prefiere la adopción y de esta manera ayudarás a perros y gatos abandonados a tener un hogar.</string>
+    <string name="consejos_no_abandonar">Una vez que tomamos la decisión de hacernos cargo de un animal debemos considerar que ésta es una decisión a conciencia y que durará por cuanto dure su vida, ya que pasarán a formar parte de nuestra familia. Por eso lo mejor es tomar una decisión informada y en familia. Debemos considerar los tiempos que vamos a poder dedicar a nuestros animales, el espacio del que disponemos, nuestro estilo de vida, entre otras cosas. Si tenemos dudas siempre debemos consultar a un Médico Veterinario que nos oriente.
+
+No debemos olvidar que el abandono de animales representa una conducta de maltrato y crueldad animal, que está sancionada como un delito, según nuestra normativa vigente, con penas de hasta tres años de cárcel</string>
+    <string name="title_activity_result">Resultados</string>
 
 </resources>

@@ -5,6 +5,7 @@
     <color name="colorAccent">#F7AE70</color>
 
     <color name="darkBackground">#212121</color>
+    <color name="darkBackground_alpha">#00212121</color>
 
     <color name="primaryText">#212121</color>
     <color name="secondaryText">#757575</color>
