@@ -18,8 +18,6 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 import com.zecovery.android.ptrac.R;
 
-import org.json.JSONObject;
-
 import static com.zecovery.android.ptrac.activity.BaseActivity.LOG_TAG;
 
 public class FragmentEst extends Fragment {
@@ -82,9 +80,15 @@ public class FragmentEst extends Fragment {
             public void onDataChange(DataSnapshot dataSnapshot) {
 
 
-                for (int i = 0; i <dataSnapshot.getChildrenCount() ; i++) {
+                for (int i = 0; i <dataSnapshot.child("region").getChildrenCount(); i++) {
 
-                    Log.d(LOG_TAG, "comuna_key: " + dataSnapshot.child("region").child(""+i+"").child("comuna").child("0").child("comuna_nombre").getValue().toString());
+                    Log.d(LOG_TAG, "i: " + i);
+
+                    for (int j = 0; j <dataSnapshot.child("region").child(""+i+"").getChildrenCount() ; j++) {
+                        Log.d(LOG_TAG, "j: " + j);
+                    }
+
+
 
                 }
 
