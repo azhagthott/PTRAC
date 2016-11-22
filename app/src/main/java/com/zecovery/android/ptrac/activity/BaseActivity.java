@@ -3,6 +3,9 @@ package com.zecovery.android.ptrac.activity;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
+import com.google.firebase.analytics.FirebaseAnalytics;
+import com.google.firebase.crash.FirebaseCrash;
+
 /**
  * Created by francisco on 08-11-16.
  */
@@ -10,10 +13,7 @@ import android.support.v7.app.AppCompatActivity;
 public class BaseActivity extends AppCompatActivity {
 
     public static final String LOG_TAG = ":::LOG:::";
-    //private FirebaseAnalytics mFirebaseAnalytics;
-
-    //desa dummy
-    //public static final String URL_REQUEST = "http://alvaro.desa.exec.cl/moe/REST/Pet/index.php?request=";
+    private FirebaseAnalytics mFirebaseAnalytics;
 
     //desa con datos reales
     public static final String URL_REQUEST_RUT = "http://subdere.desa.exec.cl/ws/mascota/busqueda.php?rut=";
@@ -29,7 +29,7 @@ public class BaseActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        //mFirebaseAnalytics = FirebaseAnalytics.getInstance(this);
-        //FirebaseCrash.log("BaseActivity created");
+        mFirebaseAnalytics = FirebaseAnalytics.getInstance(this);
+        FirebaseCrash.log("BaseActivity created");
     }
 }

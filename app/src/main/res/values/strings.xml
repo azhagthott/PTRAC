@@ -16,6 +16,8 @@
     <string name="busqueda_chip_hint">123456789</string>
     <string name="busqueda_chip_text">Al ingresar el numero de chip de la mascota, se mostrará información del prietario</string>
     <string name="button_buscar">Buscar</string>
+    <string name="logo_content_description">Logo Perry y Gatti, defensores de mascotas</string>
+    <string name="expand_collapse_button_content_description">Espande o contrae el menu para buscar</string>
 
     <!-- UI Resultados-->
     <string name="result_dummy">+56961499453</string>

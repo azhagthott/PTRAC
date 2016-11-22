@@ -1,9 +1,8 @@
 package com.zecovery.android.ptrac.fragment;
 
 import android.content.Context;
-import android.content.Intent;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
+import android.support.design.widget.TextInputEditText;
 import android.support.design.widget.TextInputLayout;
 import android.support.v4.app.Fragment;
 import android.util.Log;
@@ -26,7 +25,6 @@ import com.android.volley.VolleyError;
 import com.android.volley.toolbox.Volley;
 import com.google.firebase.crash.FirebaseCrash;
 import com.zecovery.android.ptrac.R;
-import com.zecovery.android.ptrac.activity.ResultActivity;
 import com.zecovery.android.ptrac.animation.LinearLayoutCustomAnimation;
 import com.zecovery.android.ptrac.app.Mascota;
 import com.zecovery.android.ptrac.com.CustomJsonRequest;
@@ -36,34 +34,27 @@ import org.json.JSONObject;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.concurrent.Executor;
 
-import static android.content.ContentValues.TAG;
 import static com.zecovery.android.ptrac.activity.BaseActivity.LOG_TAG;
 import static com.zecovery.android.ptrac.activity.BaseActivity.URL_REQUEST_CHIP;
 import static com.zecovery.android.ptrac.activity.BaseActivity.URL_REQUEST_RUT;
 
-public class FragmentBuscar extends Fragment {
+public class FragmentBuscar extends Fragment implements View.OnClickListener{
 
     private OnFragmentInteractionListener listener;
 
     private LinearLayout linearLayoutRut;
     private LinearLayout linearLayoutChip;
-
     private LinearLayout linearLayoutRutResult;
     private LinearLayout linearLayoutChipResult;
 
-    private TextView textViewSubRut;
-    private TextView textViewSubChip;
-
+    private TextView textViewDescriptionRut;
+    private TextView textViewDescriptionChip;
     private TextView textViewRutResult;
     private TextView textViewChipResult;
 
-    private EditText editTextBusquedaRut;
-    private EditText editTextBusquedaChip;
-
-    private Button buttonBuscarRut;
-    private Button buttonBuscarChip;
+    private TextInputEditText editTextRut;
+    private TextInputEditText editTextChip;
 
     private ImageView iconRut;
     private ImageView iconChip;
@@ -73,6 +64,9 @@ public class FragmentBuscar extends Fragment {
 
     private TextInputLayout textInputLayoutRut;
     private TextInputLayout textInputLayoutChip;
+
+    private Button buttonBuscarRut;
+    private Button buttonBuscarChip;
 
     private List<Mascota> list;
 
@@ -100,32 +94,38 @@ public class FragmentBuscar extends Fragment {
         linearLayoutRut = (LinearLayout) rootView.findViewById(R.id.linearLayoutRut);
         linearLayoutChip = (LinearLayout) rootView.findViewById(R.id.linearLayoutChip);
 
+        linearLayoutRut.setMinimumHeight((int)TEXT_VIEW_HEIGHT);
+        linearLayoutChip.setMinimumHeight((int)TEXT_VIEW_HEIGHT);
+
         linearLayoutRutResult = (LinearLayout) rootView.findViewById(R.id.linearLayoutRutResult);
         linearLayoutChipResult = (LinearLayout) rootView.findViewById(R.id.linearLayoutChipResult);
 
-        textViewSubRut = (TextView) rootView.findViewById(R.id.textViewSubRut);
-        textViewSubChip = (TextView) rootView.findViewById(R.id.textViewSubChip);
+        textViewDescriptionRut = (TextView) rootView.findViewById(R.id.textViewDescriptionRut);
+        textViewDescriptionChip = (TextView) rootView.findViewById(R.id.textViewDescriptionChip);
 
         textViewRutResult = (TextView) rootView.findViewById(R.id.textViewRutResult);
         textViewChipResult = (TextView) rootView.findViewById(R.id.textViewChipResult);
 
-        editTextBusquedaRut = (EditText) rootView.findViewById(R.id.editTextBusquedaRut);
-        editTextBusquedaChip = (EditText) rootView.findViewById(R.id.editTextBusquedaChip);
-
-        buttonBuscarRut = (Button) rootView.findViewById(R.id.buttonBuscarRut);
-        buttonBuscarChip = (Button) rootView.findViewById(R.id.buttonBuscarChip);
+        editTextRut = (TextInputEditText) rootView.findViewById(R.id.editTextRut);
+        editTextChip = (TextInputEditText) rootView.findViewById(R.id.editTextChip);
 
         textInputLayoutRut = (TextInputLayout) rootView.findViewById(R.id.textInputLayoutRut);
         textInputLayoutChip = (TextInputLayout) rootView.findViewById(R.id.textInputLayoutChip);
 
-        iconRut = (ImageView) rootView.findViewById(R.id.iconRut);
-        iconChip = (ImageView) rootView.findViewById(R.id.iconChip);
+        iconRut = (ImageView) rootView.findViewById(R.id.rotatingIconRut);
+        iconChip = (ImageView) rootView.findViewById(R.id.rotatingIconChip);
+
+        buttonBuscarRut = (Button) rootView.findViewById(R.id.buttonBuscarRut);
+        buttonBuscarChip = (Button) rootView.findViewById(R.id.buttonBuscarChip);
+
+        buttonBuscarRut.setOnClickListener(this);
+        buttonBuscarChip.setOnClickListener(this);
 
         toggleButtonRut = (ToggleButton) rootView.findViewById(R.id.toggleButtonRut);
         toggleButtonChip = (ToggleButton) rootView.findViewById(R.id.toggleButtonChip);
 
-
-        hideUI();
+        setChipUIVisible(false);
+        setRutUIVisible(false);
 
         toggleButtonRut.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
@@ -134,34 +134,17 @@ public class FragmentBuscar extends Fragment {
                 LinearLayoutCustomAnimation anim = new LinearLayoutCustomAnimation();
 
                 if (isChecked) {
-
+                    // animacion del linear layout y del icono (+)
                     anim.expand(linearLayoutRut, 300, (int) TEXT_VIEW_HEIGHT_EXPANDED);
-                    anim.collapse(linearLayoutChip, 300, (int) TEXT_VIEW_HEIGHT);
                     anim.rotateImage(iconRut, 300);
-                    anim.rotateImage(iconChip, 300);
-
-                    textViewSubRut.setVisibility(View.VISIBLE);
-                    textInputLayoutRut.setVisibility(View.VISIBLE);
-                    editTextBusquedaRut.setVisibility(View.VISIBLE);
-                    buttonBuscarRut.setVisibility(View.VISIBLE);
-
-                    buttonBuscarChip.setVisibility(View.GONE);
-                    editTextBusquedaChip.setVisibility(View.GONE);
-                    linearLayoutChipResult.setVisibility(View.GONE);
-                    textInputLayoutChip.setVisibility(View.GONE);
-                    textViewSubChip.setVisibility(View.GONE);
-
+                    setRutUIVisible(true);
+                    setChipUIVisible(false);
                     toggleButtonChip.setChecked(false);
 
                 } else {
                     anim.collapse(linearLayoutRut, 300, (int) TEXT_VIEW_HEIGHT);
                     anim.rotateImage(iconRut, 300);
-                    anim.rotateImage(iconChip, 300);
-
-                    textViewSubRut.setVisibility(View.GONE);
-                    editTextBusquedaRut.setVisibility(View.GONE);
-                    textInputLayoutRut.setVisibility(View.GONE);
-                    buttonBuscarRut.setVisibility(View.GONE);
+                    setRutUIVisible(false);
                 }
             }
         });
@@ -173,71 +156,24 @@ public class FragmentBuscar extends Fragment {
                 LinearLayoutCustomAnimation anim = new LinearLayoutCustomAnimation();
 
                 if (isChecked) {
+                    // animacion del linear layout y del icono (+)
                     anim.expand(linearLayoutChip, 300, (int) TEXT_VIEW_HEIGHT_EXPANDED);
-                    anim.collapse(linearLayoutRut, 300, (int) TEXT_VIEW_HEIGHT);
-                    anim.rotateImage(iconRut, 300);
                     anim.rotateImage(iconChip, 300);
-
-                    textViewSubChip.setVisibility(View.VISIBLE);
-                    textInputLayoutChip.setVisibility(View.VISIBLE);
-                    editTextBusquedaChip.setVisibility(View.VISIBLE);
-                    buttonBuscarChip.setVisibility(View.VISIBLE);
-
-                    buttonBuscarRut.setVisibility(View.GONE);
-                    editTextBusquedaRut.setVisibility(View.GONE);
-                    linearLayoutRutResult.setVisibility(View.GONE);
-                    textInputLayoutRut.setVisibility(View.GONE);
-                    textViewSubRut.setVisibility(View.GONE);
-
+                    setChipUIVisible(true);
+                    setRutUIVisible(false);
                     toggleButtonRut.setChecked(false);
 
                 } else {
                     anim.collapse(linearLayoutChip, 300, (int) TEXT_VIEW_HEIGHT);
-                    anim.rotateImage(iconRut, 300);
                     anim.rotateImage(iconChip, 300);
-
-                    textViewSubChip.setVisibility(View.GONE);
-                    editTextBusquedaChip.setVisibility(View.GONE);
-                    textInputLayoutChip.setVisibility(View.GONE);
-                    buttonBuscarChip.setVisibility(View.GONE);
+                    setChipUIVisible(false);
                 }
             }
         });
 
-
-        buttonBuscarRut.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                //startActivity(new Intent(getActivity().getApplicationContext(), ResultActivity.class));
-
-                buscarPorRut();
-            }
-        });
-
-        buttonBuscarChip.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                buscarPorChip();
-            }
-        });
-
-
         return rootView;
     }
 
-    private void hideUI() {
-        textViewSubRut.setVisibility(View.GONE);
-        textViewSubChip.setVisibility(View.GONE);
-        editTextBusquedaRut.setVisibility(View.GONE);
-        editTextBusquedaChip.setVisibility(View.GONE);
-        textInputLayoutRut.setVisibility(View.GONE);
-        textInputLayoutChip.setVisibility(View.GONE);
-        buttonBuscarRut.setVisibility(View.GONE);
-        buttonBuscarChip.setVisibility(View.GONE);
-        linearLayoutRutResult.setVisibility(View.GONE);
-        linearLayoutChipResult.setVisibility(View.GONE);
-
-    }
 
     @Override
     public void onAttach(Context context) {
@@ -256,6 +192,22 @@ public class FragmentBuscar extends Fragment {
         listener = null;
     }
 
+    @Override
+    public void onClick(View view) {
+
+        switch (view.getId()){
+            case R.id.buttonBuscarRut:
+                Log.d(LOG_TAG, "onClick:  buscar por RUT");
+                buscarPorRut();
+                break;
+            case R.id.buttonBuscarChip:
+                Log.d(LOG_TAG, "onClick:  buscar por Chip");
+                buscarPorChip();
+                break;
+        }
+
+    }
+
     public interface OnFragmentInteractionListener {
     }
 
@@ -266,9 +218,9 @@ public class FragmentBuscar extends Fragment {
 
         try {
 
-            if (editTextBusquedaRut != null) {
+            if (editTextRut != null) {
 
-                final String rutCompleto = editTextBusquedaRut.getText().toString();
+                final String rutCompleto = editTextRut.getText().toString();
 
                 String[] splitRut = rutCompleto.split("-");
                 String rut = splitRut[0];
@@ -318,16 +270,15 @@ public class FragmentBuscar extends Fragment {
 
     }
 
-
     private void buscarPorChip() {
 
         linearLayoutChipResult.setVisibility(View.GONE);
         final Context context = getActivity().getApplicationContext();
 
         try {
-            if (linearLayoutChipResult != null) {
+            if (editTextChip != null) {
 
-                final String chip = editTextBusquedaChip.getText().toString();
+                final String chip = editTextChip.getText().toString();
 
                 CustomJsonRequest request = new CustomJsonRequest(
                         Request.Method.GET,
@@ -367,6 +318,38 @@ public class FragmentBuscar extends Fragment {
             }
         } catch (Exception e) {
             FirebaseCrash.log("error: " + e);
+        }
+    }
+
+    private void setChipUIVisible(boolean visibility){
+
+        if(visibility){
+            textViewDescriptionChip.setVisibility(View.VISIBLE);
+            textInputLayoutChip.setVisibility(View.VISIBLE);
+            editTextChip.setVisibility(View.VISIBLE);
+            buttonBuscarChip.setVisibility(View.VISIBLE);
+        }else {
+            textViewDescriptionChip.setVisibility(View.GONE);
+            textInputLayoutChip.setVisibility(View.GONE);
+            editTextChip.setVisibility(View.GONE);
+            buttonBuscarChip.setVisibility(View.GONE);
+            linearLayoutRutResult.setVisibility(View.GONE);
+        }
+    }
+
+    private void setRutUIVisible(boolean visibility){
+
+        if(visibility){
+            textViewDescriptionRut.setVisibility(View.VISIBLE);
+            textInputLayoutRut.setVisibility(View.VISIBLE);
+            editTextRut.setVisibility(View.VISIBLE);
+            buttonBuscarRut.setVisibility(View.VISIBLE);
+        }else {
+            textViewDescriptionRut.setVisibility(View.GONE);
+            textInputLayoutRut.setVisibility(View.GONE);
+            editTextRut.setVisibility(View.GONE);
+            buttonBuscarRut.setVisibility(View.GONE);
+            linearLayoutChipResult.setVisibility(View.GONE);
         }
     }
 }
