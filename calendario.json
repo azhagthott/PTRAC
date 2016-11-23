@@ -1,0 +1,1093 @@
+{
+  "calendario": [
+    {
+      "region_nombre": "XV Arica y Parinacota",
+      "comuna": "Arica",
+      "direccion": "Sotomayor 415",
+      "estado": "Finalizado. Proximamente más esterilizaciones",
+      "telefono": "(58) 2382351"
+    },
+    {
+      "region_nombre": "Tarapacá",
+      "comuna": "Alto Hospicio",
+      "direccion": "Ramon Perez Opazo 3125",
+      "estado": "Finalizado. Proximamente más esterilizaciones",
+      "telefono": "(57) 2583090"
+    },
+    {
+      "region_nombre": "Tarapacá",
+      "comuna": "Pica",
+      "direccion": "Juan de Castro s/n",
+      "estado": "Finalizado. Proximamente más esterilizaciones",
+      "telefono": "(57) 2741660"
+    },
+    {
+      "region_nombre": "Atacama",
+      "comuna": "Chañaral",
+      "direccion": "Arturo Perez Canto 510",
+      "estado": "Finalizado. Proximamente más esterilizaciones",
+      "telefono": "(52) 2543301"
+    },
+    {
+      "region_nombre": "Atacama",
+      "comuna": "Vallenar",
+      "direccion": "Plaza A. O'higgins 25",
+      "estado": "Finalizado. Proximamente más esterilizaciones",
+      "telefono": "(51) 2614188"
+    },
+    {
+      "region_nombre": "Coquimbo",
+      "comuna": "Coquimbo",
+      "direccion": "Paque el Culebrón s/n",
+      "estado": "Finalizado. Proximamente más esterilizaciones.",
+      "telefono": "(51) 2267903"
+    },
+    {
+      "region_nombre": "Coquimbo",
+      "comuna": "Andacollo",
+      "direccion": "Plaza Videla 50",
+      "estado": "En ejecución",
+      "telefono": "(51) 2337959"
+    },
+    {
+      "region_nombre": "Coquimbo",
+      "comuna": "Paiguano",
+      "direccion": "Balmaceda s/n",
+      "estado": "Finalizado. Proximamente más esterilizaciones.",
+      "telefono": "(51) 2451015"
+    },
+    {
+      "region_nombre": "Coquimbo",
+      "comuna": "Vicuña",
+      "direccion": "San Martín 225",
+      "estado": "Finalizado. Proximamente más esterilizaciones.",
+      "telefono": "(51) 2670300"
+    },
+    {
+      "region_nombre": "Coquimbo",
+      "comuna": "Illapel",
+      "direccion": "Constitución 24",
+      "estado": "Finalizado. Proximamente más esterilizaciones.",
+      "telefono": "(53) 2662451"
+    },
+    {
+      "region_nombre": "Coquimbo",
+      "comuna": "Combarbalá",
+      "direccion": "Plaza de Armas 438",
+      "estado": "Finalizado. Proximamente más esterilizaciones.",
+      "telefono": "(53) 2741383"
+    },
+    {
+      "region_nombre": "Coquimbo",
+      "comuna": "Monte Patria",
+      "direccion": "Diaguitas 31",
+      "estado": "Finalizado. Proximamente más esterilizaciones.",
+      "telefono": "(53) 2711366"
+    },
+    {
+      "region_nombre": "Coquimbo",
+      "comuna": "La Serena",
+      "direccion": "Parque Coll s/n",
+      "estado": "Finalizado. Proximamente más esterilizaciones.",
+      "telefono": "(51) 2206616"
+    },
+    {
+      "region_nombre": "Coquimbo",
+      "comuna": "Salamanca",
+      "direccion": "Manuel Bulnes 599",
+      "estado": "Finalizado. Proximamente más esterilizaciones.",
+      "telefono": "(53) 2448594"
+    },
+    {
+      "region_nombre": "Valparaíso",
+      "comuna": "Quintero",
+      "direccion": "Normandie 1916",
+      "estado": "Finalizado. Proximamente más esterilizaciones.",
+      "telefono": "(32) 2379693"
+    },
+    {
+      "region_nombre": "Valparaíso",
+      "comuna": "Los Andes",
+      "direccion": "San Rafael 1000, esquina Balmaceda Los Andes",
+      "estado": "Finalizado. Proximamente más esterilizaciones.",
+      "telefono": "(34) 2507822"
+    },
+    {
+      "region_nombre": "Valparaíso",
+      "comuna": "Rinconada",
+      "direccion": "Villa Esperanza, pasaje Pablo Neruda 211",
+      "estado": "Finalizado. Proximamente más esterilizaciones.",
+      "telefono": "(34) 2509500"
+    },
+    {
+      "region_nombre": "Valparaíso",
+      "comuna": "La Ligua",
+      "direccion": "Papudo 588",
+      "estado": "Finalizado. Proximamente más esterilizaciones.",
+      "telefono": "(33) 2342134"
+    },
+    {
+      "region_nombre": "Valparaíso",
+      "comuna": "Cabildo",
+      "direccion": "Avenida Humeres 499",
+      "estado": "Finalizado. Proximamente más esterilizaciones.",
+      "telefono": "(33) 2762100"
+    },
+    {
+      "region_nombre": "Valparaíso",
+      "comuna": "Quillota",
+      "direccion": "Maipú 330",
+      "estado": "Finalizado. Proximamente más esterilizaciones.",
+      "telefono": "(33) 2291148"
+    },
+    {
+      "region_nombre": "Valparaíso",
+      "comuna": "San Felipe",
+      "direccion": "Buin 658",
+      "estado": "Finalizado. Proximamente más esterilizaciones.",
+      "telefono": "(34) 2509072"
+    },
+    {
+      "region_nombre": "Valparaíso",
+      "comuna": "Llaillay",
+      "direccion": "Balmaceda 174",
+      "estado": "Finalizado. Proximamente más esterilizaciones.",
+      "telefono": "(34) 2498602"
+    },
+    {
+      "region_nombre": "Valparaíso",
+      "comuna": "El Quisco",
+      "direccion": "Avenida Francia 011",
+      "estado": "En ejecución",
+      "telefono": "(35) 2471205"
+    },
+    {
+      "region_nombre": "Valparaíso",
+      "comuna": "Concón",
+      "direccion": "San Agustín 950",
+      "estado": "Finalizado. Proximamente más esterilizaciones.",
+      "telefono": "(32) 23816068"
+    },
+    {
+      "region_nombre": "Valparaíso",
+      "comuna": "Puchuncaví",
+      "direccion": "Avenida Bernardo O'Higgins 70",
+      "estado": "Finalizado. Proximamente más esterilizaciones.",
+      "telefono": "(32) 2139635"
+    },
+    {
+      "region_nombre": "Valparaíso",
+      "comuna": "Calle Larga",
+      "direccion": "Calle Larga 2088",
+      "estado": "Finalizado. Proximamente más esterilizaciones.",
+      "telefono": "(34) 2461551"
+    },
+    {
+      "region_nombre": "Valparaíso",
+      "comuna": "San Esteban",
+      "direccion": "Arturo Prat 312",
+      "estado": "Finalizado. Proximamente más esterilizaciones.",
+      "telefono": "(34) 2482142"
+    },
+    {
+      "region_nombre": "Valparaíso",
+      "comuna": "Petorca",
+      "direccion": "Calle Cuartel 225",
+      "estado": "Finalizado. Proximamente más esterilizaciones.",
+      "telefono": "(33) 2337866"
+    },
+    {
+      "region_nombre": "Valparaíso",
+      "comuna": "La Calera",
+      "direccion": "Avenida Alonso Zumaeta 1623",
+      "estado": "Finalizado. Proximamente más esterilizaciones.",
+      "telefono": "(33) 2221876"
+    },
+    {
+      "region_nombre": "Valparaíso",
+      "comuna": "Villa Alemana",
+      "direccion": "Santiago 657",
+      "estado": "Finalizado. Proximamente más esterilizaciones.",
+      "telefono": "(32) 3140124 - (32) 3140236"
+    },
+    {
+      "region_nombre": "Valparaíso",
+      "comuna": "Putaendo",
+      "direccion": "Prat N°01",
+      "estado": "Finalizado. Proximamente más esterilizaciones.",
+      "telefono": "(34) 2431563"
+    },
+    {
+      "region_nombre": "Valparaíso",
+      "comuna": "Algarrobo",
+      "direccion": "Avenida Peñablanca 250",
+      "estado": "Finalizado. Proximamente más esterilizaciones.",
+      "telefono": "(35) 2200170"
+    },
+    {
+      "region_nombre": "Valparaíso",
+      "comuna": "Hijuelas",
+      "direccion": "Manuel Rodríguez 1665",
+      "estado": "Finalizado. Proximamente más esterilizaciones.",
+      "telefono": "(33) 2290234"
+    },
+    {
+      "region_nombre": "Valparaíso",
+      "comuna": "San Antonio",
+      "direccion": "SanFuente 2032",
+      "estado": "Finalizado. Proximamente más esterilizaciones.",
+      "telefono": "(35) 2203384"
+    },
+    {
+      "region_nombre": "Metropolitana",
+      "comuna": "Independencia",
+      "direccion": "Emilio Oelckers 1075",
+      "estado": "En ejecución",
+      "telefono": "(2) 27328712 - (2) 27317569"
+    },
+    {
+      "region_nombre": "Metropolitana",
+      "comuna": "La Granja",
+      "direccion": "Américo Vespucio 002",
+      "estado": "En ejecución",
+      "telefono": "(2) 25503861"
+    },
+    {
+      "region_nombre": "Metropolitana",
+      "comuna": "Macul",
+      "direccion": "Avenida Quilín 3248",
+      "estado": "En ejecución",
+      "telefono": "(2) 28100658"
+    },
+    {
+      "region_nombre": "Metropolitana",
+      "comuna": "Quinta Normal",
+      "direccion": "Radal 1621",
+      "estado": " En ejecución",
+      "telefono": "(2) 28928734"
+    },
+    {
+      "region_nombre": "Metropolitana",
+      "comuna": "San Miguel",
+      "direccion": "Berlín 878",
+      "estado": " En ejecución",
+      "telefono": "(2) 25564934"
+    },
+    {
+      "region_nombre": "Metropolitana",
+      "comuna": "Buin",
+      "direccion": "Alberto Krumm 024",
+      "estado": " En ejecución",
+      "telefono": "(2) 23218459"
+    },
+    {
+      "region_nombre": "Metropolitana",
+      "comuna": "El Monte",
+      "direccion": "Ignacio Carrera Pinto 048",
+      "estado": " Finalizado. Proximamente más esterilizaciones.",
+      "telefono": "(2) 28183363"
+    },
+    {
+      "region_nombre": "Metropolitana",
+      "comuna": "Cerrillos",
+      "direccion": "Avenida Lo Errázuriz 7069",
+      "estado": " En ejecución",
+      "telefono": "(2) 25308548"
+    },
+    {
+      "region_nombre": "Metropolitana",
+      "comuna": "Lo Prado",
+      "direccion": "San Pablo 5959",
+      "estado": "Finalizado. Proximamente más esterilizaciones.",
+      "telefono": "(2) 23887411"
+    },
+    {
+      "region_nombre": "Metropolitana",
+      "comuna": "Talagante",
+      "direccion": "21 de mayo, 875 ",
+      "estado": "Finalizado. Proximamente más esterilizaciones.",
+      "telefono": "(2) 25989500"
+    },
+    {
+      "region_nombre": "Metropolitana",
+      "comuna": "La Cisterna",
+      "direccion": "Brisas del Maipo 0509 ",
+      "estado": "Finalizado. Proximamente más esterilizaciones.",
+      "telefono": "(2) 25587021"
+    },
+    {
+      "region_nombre": "Metropolitana",
+      "comuna": "Conchalí",
+      "direccion": "Avenida La Palmilla 3671 ",
+      "estado": "En ejecución",
+      "telefono": "(2) 28286461"
+    },
+    {
+      "region_nombre": "Metropolitana",
+      "comuna": "Santiago",
+      "direccion": "Rosas 1783 Finalizado.",
+      "estado": " Proximamente más esterilizaciones.",
+      "telefono": "(2) 23867444"
+    },
+    {
+      "region_nombre": "Metropolitana",
+      "comuna": "Lo Espejo",
+      "direccion": "Adolfo Lopez Mateo 1595",
+      "estado": " Finalizado. Proximamente más esterilizaciones.",
+      "telefono": "(2) 27950699"
+    },
+    {
+      "region_nombre": "Metropolitana",
+      "comuna": "Pedro Aguirre Cerda",
+      "direccion": "Melinka 2945 ",
+      "estado": "En ejecución",
+      "telefono": "(2) 27980407"
+    },
+    {
+      "region_nombre": "Metropolitana",
+      "comuna": "La Reina",
+      "direccion": "Avenida Fernando Castillo Velasco 9980 ",
+      "estado": "Finalizado. Proximamente más esterilizaciones.",
+      "telefono": "(2) 25927349"
+    },
+    {
+      "region_nombre": "Metropolitana",
+      "comuna": "Alhué",
+      "direccion": "Pintor Onofre Jarpa N°55, Villa Alhué ",
+      "estado": "Finalizado. Proximamente más esterilizaciones.",
+      "telefono": "(2) 28319296"
+    },
+    {
+      "region_nombre": "Metropolitana",
+      "comuna": "Isla de Maipo",
+      "direccion": "Alcalde López N° 9",
+      "estado": " Finalizado. Proximamente más esterilizaciones.",
+      "telefono": "(2) 28769181"
+    },
+    {
+      "region_nombre": "Del Libertador Bernardo O'Higgins",
+      "comuna": "Codegua",
+      "direccion": "O'Higgins 376",
+      "estado": "Finalizado. Proximamente más esterilizaciones.",
+      "telefono": "(72) 2973526"
+    },
+    {
+      "region_nombre": "Del Libertador Bernardo O'Higgins",
+      "comuna": "Rengo",
+      "direccion": "Martiniano Urriola 26",
+      "estado": " Finalizado. Proximamente más esterilizaciones.",
+      "telefono": "(72) 2208368"
+    },
+    {
+      "region_nombre": "Del Libertador Bernardo O'Higgins",
+      "comuna": "San Fernando",
+      "direccion": "Carampangue 865",
+      "estado": " Finalizado. Proximamente más esterilizaciones.",
+      "telefono": "(72) 2976127"
+    },
+    {
+      "region_nombre": "Del Libertador Bernardo O'Higgins",
+      "comuna": "Palmilla",
+      "direccion": "Avenida Juan Guillermo Day 80",
+      "estado": " Finalizado. Proximamente más esterilizaciones.",
+      "telefono": "(72) 2822286"
+    },
+    {
+      "region_nombre": "Del Libertador Bernardo O'Higgins",
+      "comuna": "Peralillo",
+      "direccion": "Bernardo O'Higgins 237",
+      "estado": " Finalizado. Proximamente más esterilizaciones.",
+      "telefono": "(72) 2351335"
+    },
+    {
+      "region_nombre": "Del Libertador Bernardo O'Higgins",
+      "comuna": "Paredones",
+      "direccion": "Doctor Moore 15",
+      "estado": " En ejecución",
+      "telefono": "(72) 2824289"
+    },
+    {
+      "region_nombre": "Del Libertador Bernardo O'Higgins",
+      "comuna": "Placilla",
+      "direccion": "Oscar Gajardo 2250",
+      "estado": " Finalizado. Proximamente más esterilizaciones.",
+      "telefono": "(72) 2856088"
+    },
+    {
+      "region_nombre": "Del Libertador Bernardo O'Higgins",
+      "comuna": "Pichilemu",
+      "direccion": "Avenida Costanera 170",
+      "estado": " Finalizado. Proximamente más esterilizaciones.",
+      "telefono": "(72) 2976543"
+    },
+    {
+      "region_nombre": "Del Libertador Bernardo O'Higgins",
+      "comuna": "Malloa",
+      "direccion": "Bernardo O'Higgins 525",
+      "estado": " Finalizado. Proximamente más esterilizaciones.",
+      "telefono": "(72) 2387078"
+    },
+    {
+      "region_nombre": "Del Libertador Bernardo O'Higgins",
+      "comuna": "Peumo",
+      "direccion": "Carmen 33",
+      "estado": " Finalizado. Proximamente más esterilizaciones.",
+      "telefono": "(72) 2743668"
+    },
+    {
+      "region_nombre": "Del Libertador Bernardo O'Higgins",
+      "comuna": "San Vicente",
+      "direccion": "German Riesco 200",
+      "estado": " Finalizado. Proximamente más esterilizaciones.",
+      "telefono": "(72) 2326800"
+    },
+    {
+      "region_nombre": "Del Libertador Bernardo O'Higgins",
+      "comuna": "Doñihue",
+      "direccion": "Avenida Estación 344",
+      "estado": " Finalizado. Proximamente más esterilizaciones.",
+      "telefono": "(72) 2959220"
+    },
+    {
+      "region_nombre": "Del Libertador Bernardo O'Higgins",
+      "comuna": "Nancagua",
+      "direccion": "Avenida Armando Jaramillo 21",
+      "estado": " Finalizado. Proximamente más esterilizaciones.",
+      "telefono": "(72) 2858524"
+    },
+    {
+      "region_nombre": "Maule",
+      "comuna": "San Clemente",
+      "direccion": "Carlos Silva Renard N°792",
+      "estado": "Finalizado. Proximamente más esterilizaciones.",
+      "telefono": "(71) 2343312"
+    },
+    {
+      "region_nombre": "Maule",
+      "comuna": "San Rafael",
+      "direccion": "Avenida Oriente N°2625",
+      "estado": " Finalizado. Proximamente más esterilizaciones.",
+      "telefono": "(71) 2651012"
+    },
+    {
+      "region_nombre": "Maule",
+      "comuna": "Pelluhue",
+      "direccion": "Manuel Montt N°450",
+      "estado": "En ejecución",
+      "telefono": "(73) 2970405"
+    },
+    {
+      "region_nombre": "Maule",
+      "comuna": "Rauco",
+      "direccion": "Balmaceda N°35",
+      "estado": " Finalizado. Proximamente más esterilizaciones.",
+      "telefono": "(75) 2564503"
+    },
+    {
+      "region_nombre": "Maule",
+      "comuna": "Romeral",
+      "direccion": "Ignacio Carrera Pinto N°1213",
+      "estado": "Finalizado. Proximamente más esterilizaciones.",
+      "telefono": "(75) 2577413"
+    },
+    {
+      "region_nombre": "Maule",
+      "comuna": "Vichuquén",
+      "direccion": "Manuel Rodriguez N°315",
+      "estado": "Finalizado. Proximamente más esterilizaciones.",
+      "telefono": "(75) 2555544"
+    },
+    {
+      "region_nombre": "Maule",
+      "comuna": "Longaví",
+      "direccion": "1 oriente N°224",
+      "estado": "Finalizado. Proximamente más esterilizaciones.",
+      "telefono": "(73) 2411036"
+    },
+    {
+      "region_nombre": "Maule",
+      "comuna": "Villa Alegre",
+      "direccion": "Avenida España N° 196",
+      "estado": "Finalizado. Proximamente más esterilizaciones.",
+      "telefono": "(73) 2381721"
+    },
+    {
+      "region_nombre": "Maule",
+      "comuna": "MauleBalmaceda",
+      "direccion": " N°350",
+      "estado": "Finalizado. Proximamente más esterilizaciones.",
+      "telefono": "(71) 2532528"
+    },
+    {
+      "region_nombre": "Maule",
+      "comuna": "San Javier",
+      "direccion": "Arturo Prat 2989",
+      "estado": "Finalizado. Proximamente más esterilizaciones.",
+      "telefono": "(73) 2560363"
+    },
+    {
+      "region_nombre": "Maule",
+      "comuna": "Yerbas buenas",
+      "direccion": "Calle Juan de Dios Puga s/n",
+      "estado": "Finalizado. Proximamente más esterilizaciones.",
+      "telefono": "(73) 2620547"
+    },
+    {
+      "region_nombre": "Maule",
+      "comuna": "Parral",
+      "direccion": "Tarapacá s/n, entre calles Delicias Norte y Delicias Sur",
+      "estado": "Finalizado. Proximamente más esterilizaciones.",
+      "telefono": "(73) 2462666"
+    },
+    {
+      "region_nombre": "Biobío",
+      "comuna": "Chiguayante",
+      "direccion": "General Cornelio Saavedra 23, Parque Los Castaños",
+      "estado": "Finalizado. Proximamente más esterilizaciones.",
+      "telefono": "(41) 2352831"
+    },
+    {
+      "region_nombre": "Biobío",
+      "comuna": "Lota",
+      "direccion": "Ex Hospital ENACAR s/n, Lota Alto",
+      "estado": "Finalizado. Proximamente más esterilizaciones.",
+      "telefono": "(41) 2875848"
+    },
+    {
+      "region_nombre": "Biobío",
+      "comuna": "Santa Juana",
+      "direccion": "Calle Yungay N°125",
+      "estado": "En ejecución",
+      "telefono": "(41) 2779221"
+    },
+    {
+      "region_nombre": "Biobío",
+      "comuna": "Talcahuano",
+      "direccion": "Anibal Pinto N°276",
+      "estado": "Finalizado. Proximamente más esterilizaciones.",
+      "telefono": "(41) 2503911"
+    },
+    {
+      "region_nombre": "Biobío",
+      "comuna": "Hualpén",
+      "direccion": "Bélgica 1536",
+      "estado": "Finalizado. Proximamente más esterilizaciones.",
+      "telefono": "(41) 2574481"
+    },
+    {
+      "region_nombre": "Biobío",
+      "comuna": "Cañete",
+      "direccion": "Prat N°220",
+      "estado": "Finalizado. Proximamente más esterilizaciones.",
+      "telefono": "(41) 2209087"
+    },
+    {
+      "region_nombre": "Biobío",
+      "comuna": "Mulchén",
+      "direccion": "Gana N°242",
+      "estado": "Finalizado. Proximamente más esterilizaciones.",
+      "telefono": "(43) 2401489"
+    },
+    {
+      "region_nombre": "Biobío",
+      "comuna": "Nacimiento",
+      "direccion": "Freire N°557",
+      "estado": "Finalizado. Proximamente más esterilizaciones.",
+      "telefono": "(43) 2404648"
+    },
+    {
+      "region_nombre": "Biobío",
+      "comuna": "San Rosendo",
+      "direccion": "Ibieta N°225",
+      "estado": "En ejecución",
+      "telefono": "(43) 2461214"
+    },
+    {
+      "region_nombre": "Biobío",
+      "comuna": "Santa Bárbara",
+      "direccion": "Rosas 160",
+      "estado": "Finalizado. Proximamente más esterilizaciones.",
+      "telefono": "(43) 2589554"
+    },
+    {
+      "region_nombre": "Biobío",
+      "comuna": "Tucapel",
+      "direccion": "Independencia N°357",
+      "estado": "En ejecución",
+      "telefono": "(43) 2404016"
+    },
+    {
+      "region_nombre": "Biobío",
+      "comuna": "Bulnes",
+      "direccion": "Carlos Palacios interior",
+      "estado": "Finalizado. Proximamente más esterilizaciones.",
+      "telefono": "(42) 2204024"
+    },
+    {
+      "region_nombre": "Biobío",
+      "comuna": "Chillán Viejo",
+      "direccion": "Serrano N°300",
+      "estado": "Finalizado. Proximamente más esterilizaciones.",
+      "telefono": "(42) 2201546"
+    },
+    {
+      "region_nombre": "Biobío",
+      "comuna": "San Ignacio",
+      "direccion": "Remberto Valdés N°308",
+      "estado": "En ejecución",
+      "telefono": "(42) 21975438"
+    },
+    {
+      "region_nombre": "Biobío",
+      "comuna": "Treguaco",
+      "direccion": "Arturo Prat N° 208",
+      "estado": "En ejecución",
+      "telefono": "(42) 2832200"
+    },
+    {
+      "region_nombre": "Biobío",
+      "comuna": "San Nicolás",
+      "direccion": "Arturo Prat N°202",
+      "estado": "En ejecución",
+      "telefono": "(42) 2561416"
+    },
+    {
+      "region_nombre": "Biobío",
+      "comuna": "Florida",
+      "direccion": "Arturo Prat N°675",
+      "estado": "Finalizado. Proximamente más esterilizaciones.",
+      "telefono": "(41) 2668923"
+    },
+    {
+      "region_nombre": "Biobío",
+      "comuna": "San Pedro de la Paz",
+      "direccion": "Las Violetas N°1345",
+      "estado": "Finalizado. Proximamente más esterilizaciones.",
+      "telefono": "(41) 2371725"
+    },
+    {
+      "region_nombre": "Biobío",
+      "comuna": "Lebu",
+      "direccion": "Andrés Bello N°233",
+      "estado": "Finalizado. Proximamente más esterilizaciones.",
+      "telefono": "(41) 2519841"
+    },
+    {
+      "region_nombre": "Biobío",
+      "comuna": "Laja",
+      "direccion": "Balmaceda N°292",
+      "estado": "Finalizado. Proximamente más esterilizaciones.",
+      "telefono": "(43) 2524634"
+    },
+    {
+      "region_nombre": "Biobío",
+      "comuna": "El Carmen",
+      "direccion": "San Isidro Alto s/n",
+      "estado": "Finalizado. Proximamente más esterilizaciones.",
+      "telefono": "(42) 2834130"
+    },
+    {
+      "region_nombre": "Biobío",
+      "comuna": "Chillán",
+      "direccion": "Calle Cesar Sepúlveda Labbe s/n",
+      "estado": "Finalizado. Proximamente más esterilizaciones.",
+      "telefono": "(42) 2433362"
+    },
+    {
+      "region_nombre": "Biobío",
+      "comuna": "Coihueco",
+      "direccion": "Arturo Prat 1675",
+      "estado": "Finalizado. Proximamente más esterilizaciones.",
+      "telefono": "(42) 2471002"
+    },
+    {
+      "region_nombre": "Biobío",
+      "comuna": "Cabrero",
+      "direccion": "Las Delicias 355",
+      "estado": "Finalizado. Proximamente más esterilizaciones.",
+      "telefono": "(43) 2401842"
+    },
+    {
+      "region_nombre": "Biobío",
+      "comuna": "Yumbel",
+      "direccion": "O'Higgins 851",
+      "estado": "Finalizado. Proximamente más esterilizaciones.",
+      "telefono": "(43) 2875837"
+    },
+    {
+      "region_nombre": "Biobío",
+      "comuna": "Antuco",
+      "direccion": "Calixto Padilla 155",
+      "estado": "Finalizado. Proximamente más esterilizaciones.",
+      "telefono": "(43) 2633215"
+    },
+    {
+      "region_nombre": "Biobío",
+      "comuna": "San Carlos",
+      "direccion": "Maipú 680, 2°piso",
+      "estado": "Finalizado. Proximamente más esterilizaciones.",
+      "telefono": "(42) 2201365"
+    },
+    {
+      "region_nombre": "Biobío",
+      "comuna": "Quilaco",
+      "direccion": "Manuel Córdova 46",
+      "estado": "En ejecución",
+      "telefono": "(43) 2633629"
+    },
+    {
+      "region_nombre": "Biobío",
+      "comuna": "Los álamos",
+      "direccion": "Pedro Eyheramendy 658",
+      "estado": "Finalizado. Proximamente más esterilizaciones.",
+      "telefono": "(41) 2261037"
+    },
+    {
+      "region_nombre": "Biobío",
+      "comuna": "Negrete",
+      "direccion": "Alberto Moller 293",
+      "estado": " ejecución",
+      "telefono": "(43) 2520674"
+    },
+    {
+      "region_nombre": "Biobío",
+      "comuna": "Tomé",
+      "direccion": "Sotomayor 1137",
+      "estado": "Finalizado. Proximamente más esterilizaciones.",
+      "telefono": "(41) 2652526"
+    },
+    {
+      "region_nombre": "Biobío",
+      "comuna": "Los ángeles",
+      "direccion": "Caupolican 399",
+      "estado": "En ejecución",
+      "telefono": "(43) 2409538"
+    },
+    {
+      "region_nombre": "Biobío",
+      "comuna": "Penco",
+      "direccion": "Ruta 150, kilómetro 8, acceso sur a Penco. Sector Parque Industrial de la Madera s/n",
+      "estado": "Finalizado. Proximamente más esterilizaciones.",
+      "telefono": "(41) 2150203"
+    },
+    {
+      "region_nombre": "Biobío",
+      "comuna": "Ñiquén",
+      "direccion": "Semiramis Caro 220, San Gregorio",
+      "estado": "Finalizado. Proximamente más esterilizaciones.",
+      "telefono": "(42) 1973293"
+    },
+    {
+      "region_nombre": "Biobío",
+      "comuna": "Arauco",
+      "direccion": "Esmeralda 589",
+      "estado": "Finalizado. Proximamente más esterilizaciones.",
+      "telefono": "(41) 2553379"
+    },
+    {
+      "region_nombre": "Biobío",
+      "comuna": "Quirihue",
+      "direccion": "Emeralda 698",
+      "estado": "Finalizado. Proximamente más esterilizaciones.",
+      "telefono": "(42)2531221"
+    },
+    {
+      "region_nombre": "Biobío",
+      "comuna": "Pinto",
+      "direccion": "Ernesto Riquelme 269",
+      "estado": "Finalizado. Proximamente más esterilizaciones.",
+      "telefono": "(42) 2834025"
+    },
+    {
+      "region_nombre": "Biobío",
+      "comuna": "Quillón",
+      "direccion": "18 de Septiembre N° 250",
+      "estado": "Finalizado. Proximamente más esterilizaciones.",
+      "telefono": "(42) 2207168"
+    },
+    {
+      "region_nombre": "Araucanía",
+      "comuna": "Curarrehue",
+      "direccion": "Avenida Estadio N°550",
+      "estado": "Finalizado. Proximamente más esterilizaciones.",
+      "telefono": "(45) 21971507"
+    },
+    {
+      "region_nombre": "Araucanía",
+      "comuna": "Gorbea",
+      "direccion": "Ramón Freire N°590",
+      "estado": "Finalizado. Proximamente más esterilizaciones.",
+      "telefono": "(45) 2972143"
+    },
+    {
+      "region_nombre": "Araucanía",
+      "comuna": "Lautaro",
+      "direccion": "O'Higgins N°1032",
+      "estado": "Finalizado. Proximamente más esterilizaciones.",
+      "telefono": "(45) 2561435"
+    },
+    {
+      "region_nombre": "Araucanía",
+      "comuna": "Melipeuco",
+      "direccion": "Pedro Aguirre Cerda N°14",
+      "estado": "Finalizado. Proximamente más esterilizaciones.",
+      "telefono": "(45) 2581001"
+    },
+    {
+      "region_nombre": "Araucanía",
+      "comuna": "Perquenco",
+      "direccion": "Esmeralda N°470",
+      "estado": "Finalizado. Proximamente más esterilizaciones.",
+      "telefono": "(45) 2537134"
+    },
+    {
+      "region_nombre": "Araucanía",
+      "comuna": "Pitrufquén",
+      "direccion": "León Gallo Sur N°665",
+      "estado": "Finalizado. Proximamente más esterilizaciones.",
+      "telefono": "(45) 2991113"
+    },
+    {
+      "region_nombre": "Araucanía",
+      "comuna": "Vilcún",
+      "direccion": "Pumahue N°1681",
+      "estado": "Finalizado. Proximamente más esterilizaciones.",
+      "telefono": "(45) 2918367"
+    },
+    {
+      "region_nombre": "Araucanía",
+      "comuna": "Curacautín",
+      "direccion": "Arturo Prat N°853",
+      "estado": "Finalizado. Proximamente más esterilizaciones.",
+      "telefono": "45) 2881963"
+    },
+    {
+      "region_nombre": "Araucanía",
+      "comuna": "Carahue",
+      "direccion": "Pedro de Valdivia N°241",
+      "estado": "Finalizado. Proximamente más esterilizaciones.",
+      "telefono": "(45) 2922548"
+    },
+    {
+      "region_nombre": "Araucanía",
+      "comuna": "Collipulli",
+      "direccion": "Alcazar N°1048",
+      "estado": "Finalizado. Proximamente más esterilizaciones.",
+      "telefono": "(45) 2656244"
+    },
+    {
+      "region_nombre": "Araucanía",
+      "comuna": "Purén",
+      "direccion": "Doctor Garriga N°995",
+      "estado": "Finalizado. Proximamente más esterilizaciones.",
+      "telefono": "(45) 2793013"
+    },
+    {
+      "region_nombre": "Araucanía",
+      "comuna": "Angol",
+      "direccion": "Pedro Aguirre Cerda 1042",
+      "estado": "Finalizado. Proximamente más esterilizaciones.",
+      "telefono": "(45) 2465573"
+    },
+    {
+      "region_nombre": "Araucanía",
+      "comuna": "Nueva Imperial",
+      "direccion": "Arturo Prat 65",
+      "estado": "Finalizado. Proximamente más esterilizaciones.",
+      "telefono": "(45) 2683156"
+    },
+    {
+      "region_nombre": "Araucanía",
+      "comuna": "Saavedra",
+      "direccion": "Baquedano 99",
+      "estado": "Finalizado. Proximamente más esterilizaciones.",
+      "telefono": "(45) 2634029"
+    },
+    {
+      "region_nombre": "Araucanía",
+      "comuna": "Victoria",
+      "direccion": "Lagos 680",
+      "estado": "Finalizado. Proximamente más esterilizaciones.",
+      "telefono": "(45) 2296485"
+    },
+    {
+      "region_nombre": "Araucanía",
+      "comuna": "Villarrica",
+      "direccion": "Pedro Montt 530",
+      "estado": "Finalizado. Proximamente más esterilizaciones.",
+      "telefono": "(45) 2206630"
+    },
+    {
+      "region_nombre": "Los Ríos",
+      "comuna": "Mariquina",
+      "direccion": "José Puchi N°124",
+      "estado": "Finalizado. Proximamente más esterilizaciones.",
+      "telefono": "(63) 2452540"
+    },
+    {
+      "region_nombre": "Los Ríos",
+      "comuna": "La Unión",
+      "direccion": "Riquelme N°431",
+      "estado": "Finalizado. Proximamente más esterilizaciones.",
+      "telefono": "(64) 2472396"
+    },
+    {
+      "region_nombre": "Los Ríos",
+      "comuna": "Lago Ranco",
+      "direccion": "Viña del Mar 345",
+      "estado": "Finalizado. Proximamente más esterilizaciones.",
+      "telefono": "(63) 2491212"
+    },
+    {
+      "region_nombre": "Los Ríos",
+      "comuna": "Los Lagos",
+      "direccion": "San Martín s/n",
+      "estado": "En ejecución",
+      "telefono": "(63) 2462316"
+    },
+    {
+      "region_nombre": "Los Ríos",
+      "comuna": "Futrono",
+      "direccion": "Balmaceda esquina Alessandri s/n",
+      "estado": "Finalizado. Proximamente más esterilizaciones.",
+      "telefono": "(63) 2482634"
+    },
+    {
+      "region_nombre": "Los Lagos",
+      "comuna": "Frutillar",
+      "direccion": "Phillippi N°753",
+      "estado": "Finalizado. Proximamente más esterilizaciones.",
+      "telefono": "(65) 2420056"
+    },
+    {
+      "region_nombre": "Los Lagos",
+      "comuna": "Maullín",
+      "direccion": "Bernardo O'Higgins 641",
+      "estado": "Finalizado. Proximamente más esterilizaciones.",
+      "telefono": "(65) 2482556"
+    },
+    {
+      "region_nombre": "Los Lagos",
+      "comuna": "Ancud",
+      "direccion": "Blanco Encalada N°660",
+      "estado": "Finalizado. Proximamente más esterilizaciones.",
+      "telefono": "(65) 2487668"
+    },
+    {
+      "region_nombre": "Los Lagos",
+      "comuna": "Puerto Octay",
+      "direccion": "Esperanza 555",
+      "estado": "Finalizado. Proximamente más esterilizaciones.",
+      "telefono": "(64) 2646480"
+    },
+    {
+      "region_nombre": "Los Lagos",
+      "comuna": "San Juan de la Costa",
+      "direccion": "Avenida Norte Puaucho s/n",
+      "estado": "Finalizado. Proximamente más esterilizaciones.",
+      "telefono": "(64) 2612910"
+    },
+    {
+      "region_nombre": "Los Lagos",
+      "comuna": "San Pablo",
+      "direccion": "Bolivia 498",
+      "estado": "Finalizado. Proximamente más esterilizaciones.",
+      "telefono": "(64) 2381426"
+    },
+    {
+      "region_nombre": "Los Lagos",
+      "comuna": "Futaleufú",
+      "direccion": "O'Higgins 596",
+      "estado": "Finalizado. Proximamente más esterilizaciones.",
+      "telefono": "(65) 2721622"
+    },
+    {
+      "region_nombre": "Los Lagos",
+      "comuna": "Llanquihue",
+      "direccion": "Eraldo Werner N°450",
+      "estado": "Finalizado. Proximamente más esterilizaciones.",
+      "telefono": "65) 2244558"
+    },
+    {
+      "region_nombre": "Los Lagos",
+      "comuna": "Puyehue",
+      "direccion": "Ruta internacional N°215 km 49",
+      "estado": "Finalizado. Proximamente más esterilizaciones.",
+      "telefono": "(64) 2371503"
+    },
+    {
+      "region_nombre": "Los Lagos",
+      "comuna": "Hualaihué",
+      "direccion": "Centro cívico. Avenida Bernardo O'Higgins s/n. Horno Pirén",
+      "estado": "Finalizado. Proximamente más esterilizaciones.",
+      "telefono": "(65) 2217222"
+    },
+    {
+      "region_nombre": "Los Lagos",
+      "comuna": "Quellón",
+      "direccion": "22 de Mayo N° 351",
+      "estado": "Finalizado. Proximamente más esterilizaciones.",
+      "telefono": "(65) 2683513"
+    },
+    {
+      "region_nombre": "Los Lagos",
+      "comuna": "Dalcahue",
+      "direccion": "Pedro Montt 090",
+      "estado": "Finalizado. Proximamente más esterilizaciones.",
+      "telefono": "(65) 2641044"
+    },
+    {
+      "region_nombre": "Los Lagos",
+      "comuna": "Cochamó",
+      "direccion": "Santiago Buernas s/n",
+      "estado": "Finalizado. Proximamente más esterilizaciones.",
+      "telefono": "(65) 2562551"
+    },
+    {
+      "region_nombre": "Los Lagos",
+      "comuna": "Calbuco",
+      "direccion": "Egaña 610, dpto. 906",
+      "estado": "Finalizado. Proximamente más esterilizaciones.",
+      "telefono": "(65) 2460701"
+    },
+    {
+      "region_nombre": "Los Lagos",
+      "comuna": "Purranque",
+      "direccion": "21 de Mayo N° 52",
+      "estado": "Finalizado. Proximamente más esterilizaciones.",
+      "telefono": "(64) 2351158"
+    },
+    {
+      "region_nombre": "Aysén",
+      "comuna": "Cochrane",
+      "direccion": "San Valentín 544",
+      "estado": "En ejecución",
+      "telefono": "(67) 2522115"
+    },
+    {
+      "region_nombre": "Aysén",
+      "comuna": "Cisnes",
+      "direccion": "Gabriela Mistral 495",
+      "estado": "En ejecución",
+      "telefono": "(67) 2346423"
+    },
+    {
+      "region_nombre": "Magallanes",
+      "comuna": "Cabo de Hornos",
+      "direccion": "O'Higgins N°189 En ejecución",
+      "telefono": "(61) 2621312"
+    },
+    {
+      "region_nombre": "Magallanes",
+      "comuna": "Porvenir",
+      "direccion": "Padre Mariano Zavattaro 434 En ejecución",
+      "telefono": "(61) 2580203"
+    },
+    {
+      "region_nombre": "Magallanes",
+      "comuna": "Primavera",
+      "direccion": "Arturo Prat N°191 En ejecución",
+      "telefono": "(61) 2345112"
+    }
+  ]
+}
