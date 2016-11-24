@@ -5,6 +5,7 @@ import android.content.Context;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.util.Log;
+import android.util.TypedValue;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -52,7 +53,7 @@ public class FragmentEst extends Fragment {
 
         container = (LinearLayout) rootView.findViewById(R.id.container);
 
-
+        createCalendario(getActivity().getApplicationContext());
         return rootView;
     }
 
@@ -77,21 +78,23 @@ public class FragmentEst extends Fragment {
     }
 
 
-    private List<Calendario> createCalendario() {
+    private void createCalendario(final Context context) {
 
-        final List<Calendario> list = new ArrayList<>();
-
-        final Context context = getActivity().getApplicationContext();
-
-        FirebaseDatabase db = FirebaseDatabase.getInstance();
-        DatabaseReference reference = db.getReference();
+        final float LINEAR_LAYOUT_PADDING_LEFT = TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, 8, getResources().getDisplayMetrics());
+        final float LINEAR_LAYOUT_PADDING_RIGHT = TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, 8, getResources().getDisplayMetrics());
+        final float LINEAR_LAYOUT_PADDING_TOP = TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, 8, getResources().getDisplayMetrics());
+        final float LINEAR_LAYOUT_PADDING_DOWN = TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, 8, getResources().getDisplayMetrics());
 
         try {
+            FirebaseDatabase db = FirebaseDatabase.getInstance();
+            DatabaseReference reference = db.getReference();
+
             reference.addValueEventListener(new ValueEventListener() {
                 @Override
                 public void onDataChange(DataSnapshot dataSnapshot) {
 
-                    for (int i = 0; i < dataSnapshot.child("calendario").getChildrenCount(); i++) {
+                    //for (int i = 0; i <dataSnapshot.child("calendario").getChildrenCount(); i++) {
+                    for (int i = 0; i <10; i++) {
 
                         String region = "sin datos";
                         String comuna = "sin datos";
@@ -120,28 +123,44 @@ public class FragmentEst extends Fragment {
                         }
 
                         calendario = new Calendario(region, comuna, direccion, telefono, estado);
-                        list.add(calendario);
+
+                        final LinearLayout linearLayout = new LinearLayout(context);
+                        linearLayout.setOrientation(LinearLayout.VERTICAL);
+                        linearLayout.setLayoutParams(new ViewGroup.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT));
+                        linearLayout.setPadding(
+                                (int) LINEAR_LAYOUT_PADDING_LEFT,
+                                (int) LINEAR_LAYOUT_PADDING_TOP,
+                                (int) LINEAR_LAYOUT_PADDING_RIGHT,
+                                (int) LINEAR_LAYOUT_PADDING_DOWN
+                        );
+
+
 
                         TextView textViewRegion = new TextView(context);
                         TextView textViewComuan = new TextView(context);
                         TextView textViewDireccion = new TextView(context);
-                        TextView textViewtelefono = new TextView(context);
+                        TextView textViewTelefono = new TextView(context);
                         TextView textViewEstado = new TextView(context);
 
                         textViewRegion.setText(region);
                         textViewComuan.setText(comuna);
                         textViewDireccion.setText(direccion);
-                        textViewtelefono.setText(telefono);
+                        textViewTelefono.setText(telefono);
                         textViewEstado.setText(estado);
 
                         textViewRegion.setLayoutParams(new ViewGroup.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT));
                         textViewComuan.setLayoutParams(new ViewGroup.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT));
                         textViewDireccion.setLayoutParams(new ViewGroup.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT));
-                        textViewtelefono.setLayoutParams(new ViewGroup.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT));
+                        textViewTelefono.setLayoutParams(new ViewGroup.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT));
                         textViewEstado.setLayoutParams(new ViewGroup.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT));
 
-                        container.addView(textViewComuan);
+                        linearLayout.addView(textViewRegion);
+                        linearLayout.addView(textViewComuan);
+                        linearLayout.addView(textViewDireccion);
+                        linearLayout.addView(textViewTelefono);
+                        linearLayout.addView(textViewEstado);
 
+                        container.addView(linearLayout);
                     }
                 }
 
@@ -153,9 +172,5 @@ public class FragmentEst extends Fragment {
         } catch (Exception e) {
             Log.d(LOG_TAG, "Exception: " + e);
         }
-
-        return list;
     }
-
-
 }
