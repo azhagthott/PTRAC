@@ -50,4 +50,12 @@ Además existe una serie de normativas que debemos cumplir. En estos momentos se
 No debemos olvidar que el abandono de animales representa una conducta de maltrato y crueldad animal, que está sancionada como un delito, según nuestra normativa vigente, con penas de hasta tres años de cárcel</string>
     <string name="title_activity_result">Resultados</string>
 
+    <!-- UI Esteriliza-->
+    <string name="esteriliza_comuna">Comuna: </string>
+    <string name="esteriliza_direccion">Dirección: </string>
+    <string name="esteriliza_telefono">Teléfono: </string>
+    <string name="esteriliza_estado">Estado: </string>
+
+
+
 </resources>
